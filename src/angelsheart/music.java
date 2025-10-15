@@ -23,7 +23,7 @@ class music {
         l1=0;l2=0;l3=0;l4=0;l5=0;
         l0+=1;
         if (l0==1){
-            play("level0.wav");
+            play("tracks/level0.wav");
         }
     }
     
@@ -36,7 +36,7 @@ class music {
         l0=0;l2=0;l3=0;l4=0;l5=0;
         l1+=1;
         if (l1==1){
-            play("level1.wav");
+            play("tracks/level1.wav");
         }
     }
     
@@ -49,7 +49,7 @@ class music {
         l0=0;l1=0;l3=0;l4=0;l5=0;
         l2+=1;
         if (l2==1){
-            play("level2.wav");
+            play("tracks/level2.wav");
         }
     }
     
@@ -62,7 +62,7 @@ class music {
         l0=0;l1=0;l2=0;l4=0;l5=0;
         l3+=1;
         if (l3==1){
-            play("level3.wav");
+            play("tracks/level3.wav");
         }
     }
     
@@ -75,7 +75,7 @@ class music {
         l0=0;l1=0;l2=0;l3=0;l5=0;
         l4+=1;
         if (l4==1){
-            play("level4.wav");
+            play("tracks/level4.wav");
         }
     }
     
@@ -88,7 +88,7 @@ class music {
         l0=0;l1=0;l2=0;l3=0;l4=0;
         l5+=1;
         if (l5==1){
-            play("level5.wav");
+            play("tracks/level5.wav");
         }
     }
     
