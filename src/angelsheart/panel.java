@@ -677,7 +677,7 @@ abstract class panel extends JPanel implements ActionListener,KeyListener{
         }
         move();
         fire();
-        //song();
+        song();
     }
     
     
