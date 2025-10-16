@@ -295,14 +295,14 @@ abstract class panel extends JPanel implements ActionListener,KeyListener{
             b[e] = (cy+25>c && cy<c+20);
             e+=2;
         }
-        return ((cx+20>fxr && cx<fxr+20) && (b[0]||b[2]||b[4]||b[6]||b[8])) 
-                || ((cx+20>fxl && cx<fxl+20) && (b[1]||b[3]||b[5]||b[7]||b[9]));
+        return ((cx+15>fxr && cx<fxr+15) && (b[0]||b[2]||b[4]||b[6]||b[8])) 
+                || ((cx+15>fxl && cx<fxl+15) && (b[1]||b[3]||b[5]||b[7]||b[9]));
     }
     
     
     
     public boolean get(int x, int y){
-        if ((cx+15>x && cx<x+15) && (cy+25>y && cy<y+25)){
+        if ((cx+15>x && cx<x+15) && (cy+25>y && cy<y+20)){
             return true;
         }
         return false;
