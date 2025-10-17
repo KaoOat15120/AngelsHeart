@@ -18,33 +18,33 @@ class allimg{
     
     
     allimg(){
-        backimg = new ImageIcon(getClass().getResource("back.png")).getImage();
-        backbimg = new ImageIcon(getClass().getResource("backb.png")).getImage();
-        backgimg = new ImageIcon(getClass().getResource("backg.png")).getImage();
-        backpimg = new ImageIcon(getClass().getResource("backp.png")).getImage();
-        backrimg = new ImageIcon(getClass().getResource("backr.png")).getImage();
-        backyimg = new ImageIcon(getClass().getResource("backy.png")).getImage();
-        cupidimg = new ImageIcon(getClass().getResource("cupid.png")).getImage();
-        cupidimg2 = new ImageIcon(getClass().getResource("cupid2.png")).getImage();
-        ghostblimg = new ImageIcon(getClass().getResource("ghostbl.png")).getImage();
-        ghostwimg = new ImageIcon(getClass().getResource("ghostw.png")).getImage();
-        ghostgimg = new ImageIcon(getClass().getResource("ghostg.png")).getImage();
-        ghostpimg = new ImageIcon(getClass().getResource("ghostp.png")).getImage();
-        ghostbrimg = new ImageIcon(getClass().getResource("ghostbr.png")).getImage();
-        mirghostblimg = new ImageIcon(getClass().getResource("mirghostbl.png")).getImage();
-        mirghostwimg = new ImageIcon(getClass().getResource("mirghostw.png")).getImage();
-        mirghostgimg = new ImageIcon(getClass().getResource("mirghostg.png")).getImage();
-        mirghostpimg = new ImageIcon(getClass().getResource("mirghostp.png")).getImage();
-        mirghostbrimg = new ImageIcon(getClass().getResource("mirghostbr.png")).getImage();
-        fireblimg = new ImageIcon(getClass().getResource("firebl.png")).getImage();
-        firewimg = new ImageIcon(getClass().getResource("firew.png")).getImage();
-        firegimg = new ImageIcon(getClass().getResource("fireg.png")).getImage();
-        firepimg = new ImageIcon(getClass().getResource("firep.png")).getImage();
-        firebrimg = new ImageIcon(getClass().getResource("firebr.png")).getImage();
-        sickimg = new ImageIcon(getClass().getResource("sick.png")).getImage();
-        trapimg = new ImageIcon(getClass().getResource("trap1.png")).getImage();
-        mirtrapimg = new ImageIcon(getClass().getResource("mirtrap1.png")).getImage();
-        starimg = new ImageIcon(getClass().getResource("star.png")).getImage();
+        backimg = new ImageIcon("photos/back.png").getImage();
+        backbimg = new ImageIcon("photos/backb.png").getImage();
+        backgimg = new ImageIcon("photos/backg.png").getImage();
+        backpimg = new ImageIcon("photos/backp.png").getImage();
+        backrimg = new ImageIcon("photos/backr.png").getImage();
+        backyimg = new ImageIcon("photos/backy.png").getImage();
+        cupidimg = new ImageIcon("photos/cupid.png").getImage();
+        cupidimg2 = new ImageIcon("photos/cupid2.png").getImage();
+        ghostblimg = new ImageIcon("photos/ghostbl.png").getImage();
+        ghostwimg = new ImageIcon("photos/ghostw.png").getImage();
+        ghostgimg = new ImageIcon("photos/ghostg.png").getImage();
+        ghostpimg = new ImageIcon("photos/ghostp.png").getImage();
+        ghostbrimg = new ImageIcon("photos/ghostbr.png").getImage();
+        mirghostblimg = new ImageIcon("photos/mirghostbl.png").getImage();
+        mirghostwimg = new ImageIcon("photos/mirghostw.png").getImage();
+        mirghostgimg = new ImageIcon("photos/mirghostg.png").getImage();
+        mirghostpimg = new ImageIcon("photos/mirghostp.png").getImage();
+        mirghostbrimg = new ImageIcon("photos/mirghostbr.png").getImage();
+        fireblimg = new ImageIcon("photos/firebl.png").getImage();
+        firewimg = new ImageIcon("photos/firew.png").getImage();
+        firegimg = new ImageIcon("photos/fireg.png").getImage();
+        firepimg = new ImageIcon("photos/firep.png").getImage();
+        firebrimg = new ImageIcon("photos/firebr.png").getImage();
+        sickimg = new ImageIcon("photos/sick.png").getImage();
+        trapimg = new ImageIcon("photos/trap1.png").getImage();
+        mirtrapimg = new ImageIcon("photos/mirtrap1.png").getImage();
+        starimg = new ImageIcon("photos/star.png").getImage();
     }
     
     
