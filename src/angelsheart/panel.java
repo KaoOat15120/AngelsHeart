@@ -16,7 +16,7 @@ abstract class panel extends JPanel implements ActionListener,KeyListener{
     int cx,cy;
     int fxr,fxl;
     int frspd,progress,hlt,rnd,kick;
-    int lv=0,psh=100,limit=5,total=0;
+    int lv=0,psh=1,limit=5,total=0;
     int[][] star = new int[10][2];
     int[] spot = new int[10];
     double cpspd;
@@ -148,7 +148,7 @@ abstract class panel extends JPanel implements ActionListener,KeyListener{
             if (cy>=550 && cx>=120 && cx<=170 && hlt>0 && progress>0){
                 rnd=1;
                 cpspd=5;
-                frspd=25;
+                frspd=30;
                 kick=-1;
                 hlt=100;
                 health.setValue(hlt);
@@ -159,7 +159,7 @@ abstract class panel extends JPanel implements ActionListener,KeyListener{
             
             
             if (cy<=20 && hlt>0 && rnd==1){
-                if (lv<=4){
+                if (lv>=1 && lv<=4){
                     total+=limit;
                     succ();
                     btcn();
@@ -202,7 +202,12 @@ abstract class panel extends JPanel implements ActionListener,KeyListener{
                     con();
                 }
                 if (lv==3){
-                    cx+=psh;
+                    if (psh>0){
+                        cx=250;
+                    }
+                    else if (psh<0){
+                        cx=30;
+                    }
                     psh*=-1;
                     dmg();
                     con();
