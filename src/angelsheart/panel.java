@@ -145,7 +145,7 @@ abstract class panel extends JPanel implements ActionListener,KeyListener{
             
             
             
-            if (cy>=550 && cx>=120 && cx<=170 && hlt>0 && progress>0){
+            if (cy>=550 && cx>=120 && cx<=170 && hlt>0 && progress>0 && rnd==0){
                 rnd=1;
                 cpspd=5;
                 frspd=30*frpsh;
